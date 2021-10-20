@@ -1,0 +1,33 @@
+{
+  "name": "SuperCampus-node",
+  "version": "1.0.0",
+  "description": "For SuperCampus - node service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Oliverxuan/SuperCampus-node.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Oliverxuan/SuperCampus-node/issues"
+  },
+  "homepage": "https://github.com/Oliverxuan/SuperCampus-node#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
+    "koa": "^2.13.4",
+    "koa-router": "^10.1.1",
+    "nodemon": "^2.0.14",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^8.5.1",
+    "koa-bodyparser": "^4.3.0",
+    "mysql2": "^2.3.0"
+  }
+}
