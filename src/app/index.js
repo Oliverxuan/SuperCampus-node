@@ -7,6 +7,7 @@ const cors = require('@koa/cors')
 
 const app = new Koa()
 
+//Koa 跨域插件
 app.use(cors())
 app.use(bodyParser())
 useRoutes(app)
