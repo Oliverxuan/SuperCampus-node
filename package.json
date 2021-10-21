@@ -19,15 +19,16 @@
   },
   "homepage": "https://github.com/Oliverxuan/SuperCampus-node#readme",
   "dependencies": {
-    "dotenv": "^10.0.0",
-    "fs": "0.0.1-security",
-    "koa": "^2.13.4",
-    "koa-router": "^10.1.1",
-    "nodemon": "^2.0.14",
+    "@koa/cors": "^3.1.0",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "fs": "0.0.1-security",
     "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.4",
     "koa-bodyparser": "^4.3.0",
-    "mysql2": "^2.3.0"
+    "koa-router": "^10.1.1",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.14"
   }
 }
